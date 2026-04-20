@@ -1,3 +1,11 @@
-document.getElementById("btn").addEventListener("click", function() {
-  document.getElementById("title").innerText = "Button Clicked!";
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => {
+  res.send("CHESI deployment successful");
+});
+
+app.listen(port, () => {
+  console.log(`App running on port ${port}`);
 });

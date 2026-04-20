@@ -1,0 +1,12 @@
+{
+  "name": "chesi-demo",
+  "version": "1.0.0",
+  "description": "Demo app for CodePipeline CodeBuild CodeDeploy Auto Scaling",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
